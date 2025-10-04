@@ -9,7 +9,7 @@
     <form>
       <!-- ✔ Nome
            ✔Idade
-           E-mail
+           ✔E-mail
            Tipo Sanguineo (A+, A-, B+, B-, AB+, 0, 0-)
            Endereço (estado, cep, cidade, logradouro, numero)
            Estado Civil
@@ -34,6 +34,20 @@
            <div>
                 <label for="campo-email">E-mail</label>
                 <input type="email" id="campo-email" name="email">
+           </div>
+
+           <div>
+                 <label for="campo-tipo-sanguineo">Tipo Sanuineo</label>
+                 <select id="campo-tipo-sanguineo" name="tipo sanguineo">
+                    <option value="A+">A Positivo</option>
+                    <option value="A-">A Negativo</option>   
+                    <option value="B+">B Positivo</option>
+                    <option value="B-">B Negativo</option>
+                    <option value="AB">AB</option> 
+                    <option value="AB+">AB Positivo</option> 
+                    <option value="O+">O+</option>
+                    <option value="O">O Negativo</option>             
+                 </select>
            </div>
     </form>
     
