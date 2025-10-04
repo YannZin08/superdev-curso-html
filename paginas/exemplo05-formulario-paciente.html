@@ -50,7 +50,7 @@
                     <option value="O-">O Negativo</option>             
                  </select>
            </div>
-                 <!--Endereço (estado, cep(), cidade, logradouro, numero, complemento)-->
+                 <!--Endereço (✔estado, ✔cep(), ✔cidade, ✔logradouro, ✔numero, ✔complemento)-->
            <div>
                  <label for="campo-unidade-federativa">UF</label>
                  <select id="campo-unidade-federativa" name="unidade-federativa">
@@ -105,8 +105,9 @@
                     <input type="text" id="campo-numero" name="numero">
            </div>
             <div>
-                    <label for="campo-complemento">Complemento</label>
-                    <input type="text" id="campo-complemento" name="complemento">
+                    <label for="campo-complemento" style="display: block;">Complemento</label>
+                    <textarea id="campo-complemento" name="complemento"
+                         rows="10" cols="60"></textarea>
            </div>
     
     </form>
